@@ -2,9 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @layer components {
-    .link {
-        @apply hover:text-gray-300 transition-all delay-75 ease-in-out text-slate-300 hover:underline;
-    }
+	.link {
+		@apply hover:text-gray-300 transition-all delay-75 ease-in-out text-slate-300 hover:underline;
+	}
+}
+
+white {
+	color: white;
 }
