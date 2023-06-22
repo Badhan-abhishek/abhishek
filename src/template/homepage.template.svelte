@@ -1,8 +1,37 @@
-<script lang="ts">
-	import Header from '../components/atoms/header.atom.svelte';
-	import Float from '../components/atoms/float.atom.svelte';
+<script>
+	import Showcase from '../components/molecules/showcase.molecule.svelte';
+
+	console.log(`
+ __  |__  |__  o   __ |__   ___  |__, 
+(__( |__) |  ) | __)  |  ) (__/_ |  \\ 
+	`);
+	console.info('contact here: badhanabhishek3@gmail.com');
 </script>
 
-<Float />
+<head>
+	<title>abhishek</title>
+</head>
 
-<Header />
+<div class="bg-neutral-600 text-white flex flex-col pt-60 h-screen w-screen items-center gap-5">
+	<div class="text-xl">
+		I create software @ <a
+			class="link"
+			rel="noreferrer"
+			target="_blank"
+			href="https://www.cuilsoft.com/">cuilsoft</a
+		>
+	</div>
+	<div class="flex gap-2">
+		<a rel="noreferrer" target="_blank" class="link" href="https://twitter.com/beizti">Twitter</a>
+		<a rel="noreferrer" target="_blank" class="link" href="https://github.com/Badhan-abhishek"
+			>Github</a
+		>
+		<a
+			rel="noreferrer"
+			target="_blank"
+			class="link"
+			href="https://www.linkedin.com/in/abhishek-4b3b49198/">LinkedIn</a
+		>
+	</div>
+	<Showcase />
+</div>
